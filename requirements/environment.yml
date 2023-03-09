@@ -1,0 +1,17 @@
+name: pdr_tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - scipy
+  - numpy
+  - matplotlib
+  - ipykernel
+  - ipympl
+  - pandas
+  - pip:
+      - jupyter
+      - ahrs==0.3.1
+      - squaternion==0.3.4
+      - vqf==2.0.0
